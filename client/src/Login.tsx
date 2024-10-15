@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Topbar from "./components/Topbar";
 import "./index.css";
 import "./Login.css";
@@ -28,7 +29,7 @@ function Login() {
                     </div>
                     
                     <div className="buttons">
-                        <a href="/signup">Don't have an account?</a>
+                        <Link to={"/signup"}>Don't have an account?</Link>
                         <button type="submit">Log in</button>
                     </div>
                 </form>

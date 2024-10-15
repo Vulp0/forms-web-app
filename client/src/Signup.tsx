@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Topbar from "./components/Topbar";
 
 function Signup() {
@@ -26,7 +27,7 @@ function Signup() {
                     </div>
                     
                     <div className="buttons">
-                        <a href="login">Already have an account?</a>
+                        <Link to={"/login"}>Already have an account?</Link>
                         <button className="primaryButton" type="submit">Submit</button>
                     </div>
                 </form>
