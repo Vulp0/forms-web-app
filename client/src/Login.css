@@ -1,0 +1,32 @@
+.panel {
+    width: 100%;
+    max-width: 600px;
+    align-self: center;
+    background-color: #101628;
+    padding: 2.2rem 1rem;
+    box-sizing: border-box;
+}
+
+.panel form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inputFieldContainer {
+    align-items: start;
+}
+
+.combo {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
