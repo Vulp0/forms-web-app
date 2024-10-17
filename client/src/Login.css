@@ -1,18 +1,3 @@
-.panel {
-    width: 100%;
-    max-width: 600px;
-    align-self: center;
-    background-color: #101628;
-    padding: 2.2rem 1rem;
-    box-sizing: border-box;
-}
-
-.panel form {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
 .inputFieldContainer {
     align-items: start;
 }

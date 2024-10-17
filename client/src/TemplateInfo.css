@@ -1,0 +1,111 @@
+.templatePanel {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.templateInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.infoHead h1 {
+    margin-bottom: 8px;
+}
+
+.infoHead div {
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    background-color: #fff;
+}
+
+.infoBody {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.infoSection {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 8px;
+}
+
+.infoSection p {
+    margin: 0;
+}
+
+.tagBox {
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.templateComments {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.commentBox {
+    display: flex;
+    justify-content: center;
+}
+
+.commentForm textarea {
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+    min-height: 6rem;
+}
+
+.commentForm button {
+    width: fit-content;
+    align-self: flex-end;
+}
+
+.commentList {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.commentList h2 {
+    text-align: start;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.commentDate {
+    text-align: end;
+    color: gray;
+}
+
+.commentBody {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+.commentBody p {
+    text-align: start;
+    background-color: #1D2747;
+    padding: 8px 12px;
+}
+
+.pfpPlaceholder {
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    /* border-radius: 50%; */
+}

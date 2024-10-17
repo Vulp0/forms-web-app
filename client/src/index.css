@@ -5,7 +5,8 @@
         "primaryColor": "#7c97e9",
         "secondaryColor": "#0d2e91",
         "accentColor": "#2a5af8",
-        "panel": "#101628"
+        "panel": "#101628",
+        "panelAccent": #1D2747;
     },
     "lightMode": {
         "textColor": "#0c1122",
@@ -99,16 +100,22 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.hero {
+  margin-top: 50%;
+}
 
 .topbar {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .logoText {
   font-family: Geologica, sans-serif;
+  font-style: italic;
+  color: #dde2f3;
 }
 
 .logoText span {
@@ -118,6 +125,7 @@ button:focus-visible {
 #contain {
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100vh;
   width: 90%;
   margin: 0 auto;
@@ -125,10 +133,28 @@ button:focus-visible {
 
 .content {
   /* margin-top: 16rem; */
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 1rem 0;
-  gap: 12rem;
+  /* gap: 12rem; */
+}
+
+.panel {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+  background-color: #101628;
+  padding: 2.2rem 1rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.panel form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
 }
 
 .primaryButton {
@@ -161,6 +187,13 @@ button:focus-visible {
 
 .inputField:focus {
   border: #2a5af8 1px solid;
+}
+
+.tag {
+  color: #dde2f3;
+  border: #dde2f3 1px solid;
+  padding: 4px 12px;
+  border-radius: 16px;
 }
 
 

@@ -30,7 +30,7 @@ function Login() {
                     
                     <div className="buttons">
                         <Link to={"/signup"}>Don't have an account?</Link>
-                        <button type="submit">Log in</button>
+                        <button className="primaryButton" type="submit">Log in</button>
                     </div>
                 </form>
             </div>
