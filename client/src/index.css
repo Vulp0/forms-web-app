@@ -139,7 +139,7 @@ button:focus-visible {
   flex-direction: column;
   /* margin: 1rem 0; */
   /* gap: 12rem; */
-  height: 100vh;
+  min-height: 100vh;
   padding: 1rem 0;
   box-sizing: border-box;
 }
