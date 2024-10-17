@@ -152,6 +152,7 @@ button:focus-visible {
   padding: 2.2rem 1rem;
   box-sizing: border-box;
   border-radius: 8px;
+  margin: auto 0;
 }
 
 .panel form {
