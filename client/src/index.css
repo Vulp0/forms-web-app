@@ -76,7 +76,7 @@ body {
 
 h1,h2,h3,h4 {
   font-family: Noto-Sans, sans-serif;
-  font-size: 2.6rem;
+  /* font-size: 2.6rem; */
   line-height: 1.1;
   margin: 0;
 }
@@ -84,7 +84,7 @@ h1,h2,h3,h4 {
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 0.6rem 1.2rem;
   font-size: 1.1em;
   font-weight: 600;
   font-family: inherit;
@@ -199,6 +199,45 @@ button:focus-visible {
   border: #dde2f3 1px solid;
   padding: 4px 12px;
   border-radius: 16px;
+}
+
+.strip, .stripCol {
+  display: flex;
+  background-color: #1D2747;
+  padding: 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.strip {
+  flex-direction: row;
+}
+
+.stripCol {
+  flex-direction: column;
+  text-align: start;
+  align-items: start;
+}
+
+.leftSide, .rightSide {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.tally {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.placeholderIcon {
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
 }
 
 
