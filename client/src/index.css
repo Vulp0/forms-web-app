@@ -101,7 +101,8 @@ button:focus-visible {
 }
 
 .hero {
-  margin-top: 50%;
+  /* margin-top: 10rem; */
+  margin: auto 0;
 }
 
 .topbar {
@@ -109,7 +110,7 @@ button:focus-visible {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .logoText {
@@ -136,8 +137,11 @@ button:focus-visible {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
   /* gap: 12rem; */
+  height: 100vh;
+  padding: 1rem 0;
+  box-sizing: border-box;
 }
 
 .panel {
