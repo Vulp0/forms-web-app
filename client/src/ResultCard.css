@@ -1,0 +1,36 @@
+.resultCard {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    background-color: #1D2747;
+    border-radius: 8px;
+}
+
+.resultCard p {
+    margin: 0;
+}
+
+.resultImg {
+    width: 100%;
+    min-height: 200px;
+    background-color: #fff;
+}
+
+.resultInfo {
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.resultAuthor {
+    display: flex;
+    gap: 8px;
+}
+
+.resultTopics, .resultTags {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 8px;
+    flex-wrap: wrap;
+}
